@@ -1,0 +1,43 @@
+.navbar{
+    width: 100vw;
+    height: 15vh;
+    /*border-bottom: 1px solid #dadcdd;*/
+    background-color: #dadcdd;
+    /*background-color: #fff;*/
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 30px 50px 30px #dadcdd;
+
+}
+
+.navLogo{
+    /*width: 100%;*/
+    padding-left: 5vw;
+    height: 100%;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    padding-right: 10vw;
+}
+
+.menuButtonContainer{
+    height: 100%;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuButton{
+    width: 75%;
+    height: 65%;
+    border-radius: 10px;
+    border: none;
+    background-color: #dadcdd;
+}
+
+.menuButton:hover{
+    background-color: rgba(1,1,1,0.03);
+}

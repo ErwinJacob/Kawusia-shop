@@ -1,0 +1,86 @@
+.shopContainer{
+    width: 100%;
+    /*height: 500px;*/
+    /*box-shadow: 120px 80px 40px 20px #fff;*/
+    /*background-color: #cbcccd;*/
+    border-bottom: 1px solid black;
+}
+
+.shopTitle{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    /*padding-left: 3vw;*/
+    font-family: 'Permanent Marker', cursive;
+    /*padding-bottom: 3vh;*/
+    /*padding-top: 5vh;*/
+}
+
+.shopItemsContainer{
+    width: 100%;
+    display: flex;
+
+}
+
+.shopItem{
+    width: 50%;
+    position: relative;
+}
+
+.shopItemImgContainer{
+    /*position: absolute;*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopItemImg{
+    width: 90%;
+}
+
+.shopItem:hover{
+    background-color: rgba(0,0,0, 0.05);
+}
+
+.buyButtonContainer{
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buyButton{
+    font-family: 'Permanent Marker', cursive;
+    border-radius: 10px;
+    padding: 0.5vw 5vw;
+    border: 2px solid rgb(49,141,53);
+    /*background-color: rgb(178,138,106);*/
+    background-color: rgba(80, 200, 120, 0.3);
+    margin-left: 1vw;
+}
+
+.buyButton:hover{
+    background-color: rgb(80, 200, 120);
+}
+
+.dowiedzSieButton{
+    font-family: 'Permanent Marker', cursive;
+    border-radius: 10px;
+    padding: 0.5vw 5vw;
+    border: 2px solid rgb(162,119,86);
+    /*background-color: rgb(178,138,106);*/
+    background-color: rgba(206,168,137,0.5);
+    margin-right: 1vw;
+}
+
+.dowiedzSieButton:hover{
+    /*background-color: rgba(206,168,137,0.5);*/
+    background-color: rgb(178,138,106);
+
+}
